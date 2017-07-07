@@ -1,3 +1,7 @@
+## Disclaimer
+
+This package is intended for fast prototyping only, not production. I needed to use `admithub:shared-auth` in a Meteor/React project using react-router. Even though the package is built with Blaze and iron:router, the functionality works as intended. I only needed to hide the piece of html injected by Iron Router saying that there is no route defined for '/', by defining an empty Iron Router route. I must insist that you do not use this in production, as this is only a lazy quick fix.
+
 ## Meteor Shared Auth
 
 For situations where you have *multiple meteor applications* running on
@@ -22,4 +26,4 @@ each of the listed domains.
 
 Install with:
 
-    meteor add admithub:shared-auth
+    meteor add vladbalan:shared-auth
